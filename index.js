@@ -145,7 +145,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -162,7 +162,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -179,7 +179,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -196,7 +196,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -213,7 +213,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -230,7 +230,7 @@ async function startAdrian() {
                             title: `${namabot}`,
                             body: `${namaowner}`,
                             thumbnailUrl: ppgroup,
-                            sourceUrl: "https://instagram/@dryan.pu",
+                            sourceUrl: "https://instagram/@razzorzina",
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -249,14 +249,14 @@ async function startAdrian() {
                 try {
                     ppuser = await conn.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://tinyurl.com/yx93l6da'
+                    ppuser = 'https://telegra.ph/file/cc2ec2e9bb2dd8e561b9b.png'
                 }
 
                 // Get Profile Picture Group
                 try {
                     ppgroup = await conn.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://tinyurl.com/yx93l6da'
+                    ppgroup = 'https://telegra.ph/file/cc2ec2e9bb2dd8e561b9b.png'
                 }
                if (anu.action == 'add') {
                  let a = `*Hello @${num.split("@")[0]}, Welcome To ${metadata.subject}*\n, I hope you feel comfortable in this group and don't forget to read the group description`
@@ -267,7 +267,7 @@ async function startAdrian() {
          title: `${namabot}`,
          body: `${namaowner}`,
          thumbnailUrl: ppuser,
-         sourceUrl: "https://instagram/@dryan.pu",
+         sourceUrl: "https://instagram/@razzorzina",
          mediaType: 1,
          renderLargerThumbnail: true
     }}})
@@ -280,7 +280,7 @@ async function startAdrian() {
          title: `${namabot}`,
          body: `${namaowner}`,
          thumbnailUrl: ppuser,
-         sourceUrl: "https://instagram/@dryan.pu",
+         sourceUrl: "https://instagram/@razzorzina",
          mediaType: 1,
          renderLargerThumbnail: true
     }}})
@@ -293,7 +293,7 @@ async function startAdrian() {
          title: `${namabot}`,
          body: `${namaowner}`,
          thumbnailUrl: ppuser,
-         sourceUrl: "https://instagram/@dryan.pu",
+         sourceUrl: "https://instagram/@razzorzina",
          mediaType: 1,
          renderLargerThumbnail: true
     }}})
@@ -306,7 +306,7 @@ async function startAdrian() {
          title: `${namabot}`,
          body: `${namaowner}`,
          thumbnailUrl: ppuser,
-         sourceUrl: "https://instagram/@dryan.pu",
+         sourceUrl: "https://instagram/@razzorzina",
          mediaType: 1,
          renderLargerThumbnail: true
     }}})
@@ -356,7 +356,7 @@ async function startAdrian() {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await conn.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${namaowner}\nFN:${namaowner}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:azzygota24@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://panel.apolozea.xyz\nitem3.X-ABLabel:Panel\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${namaowner}\nFN:${namaowner}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET: nyankobotapi@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://info.veyrazzorz.xyz\nitem3.X-ABLabel:Panel\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	conn.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
